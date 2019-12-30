@@ -25,7 +25,7 @@ useful software | busybox v1.22.0 2018-02-21
 #### Start of my journey with KSM
 I was looking for some alternative softwares/solutions. I found a small thinker community which lives on a [forum](https://www.mobileread.com/).There i found the fundamental piece the `Kobo Start Menu`. At the time of this article the latest version is the [`KSM 09`](https://www.mobileread.com/forums/showthread.php?t=293804) from `2018-OCT-01`.There is a long and straightforward tutorial ,how to install this piece of software on the device.I will skip on the tutorial and jump straight to the interesting part.
 
-There is a really interesting file in the zip called KoboRoot.tgz . When you inspect it closer its contains the structure of linux filesystem.This is important if we would like to add our own bits,however after we install the KSM there will be plenty other of ways to do it.
+There is a really interesting file in the zip called KoboRoot.tgz . When you inspect it closer its contains the structure of linux filesystem.This is important if we would like to add our own bits,however after we install the KSM there will be plenty of other of ways to do it.
 After the install you have a minimalist(really minimalist) menu to start reader, read info and start the KSM most handy feature the `rmc`. this is a remote web-interface for the device.If you look at the bottom you can even run command as the root at the bottom.
 
 ![rmc](/picture/rmc.png)

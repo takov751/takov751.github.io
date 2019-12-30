@@ -8,4 +8,13 @@ categories: kobo repurpose
 In this chapter i will write about the alternative e-reader software.There is two main options,the [Plato](https://github.com/baskerville/plato) and the [Koreader](https://github.com/koreader/koreader). I will write about the second one mainly,the reason for that is Plato is a nice e-reader ,however koreader has plenty of plug-ins,which in my opinion is way more useful in long term. Above all that koreader is a cross-platform solution. Installation of this reader is easier than the KSM itself. When you download the zip file from the release page, you just have to copy the koreader directory into the `.adds` direcotry of the device. After this you can fire it up from the kobo start menu.
 From this point you have revived your device as a feature-rich reader.
 
-#### extra features
+#### Main selling features
+
+- cross platform : Android, Cervantes, Kindle, Kobo, Pocketbook, Sony-prstux, linux
+- some of the supported formats : PDF, DjVu, CBT, CBZ, EPUB, FB2, Mobi, DOC, CHM, TXT
+- interface customization is just superb
+- Cloud integration if needed : calibre, Evernote, Wallabag, Wikipedia, Google Translate
+- Cloud storage : Dropbox, FTP, Webdav
+- some insane plugins : SSH server, RSS news, text editor(better than expected),terminal emulator, etc.
+
+#### Runing wild
