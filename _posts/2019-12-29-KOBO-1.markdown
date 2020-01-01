@@ -3,7 +3,7 @@ layout: post
 title:  "KOBO on steroid aka 'reborn and repurpose' #1"
 date:   2019-12-29 10:00:00 +0000
 categories: kobo repurpose
-published: false
+published: true
 ---
 # Chapter none
 In this chapter i will write about the alternative e-reader software.There is two main options,the [Plato](https://github.com/baskerville/plato) and the [Koreader](https://github.com/koreader/koreader). I will write about the second one mainly,the reason for that is Plato is a nice e-reader ,however koreader has plenty of plug-ins,which in my opinion is way more useful in long term. Above all that koreader is a cross-platform solution. Installation of this reader is easier than the KSM itself. When you download the zip file from the release page, you just have to copy the koreader directory into the `.adds` direcotry of the device. After this you can fire it up from the kobo start menu.
@@ -21,3 +21,17 @@ From this point you have revived your device as a feature-rich reader.
 #### Runing wild
 
 With these features there is no way to stop.
+SSH gives us easy,stable access straight to root, however the device runs a older crusty kernel.
+In koreader /settings/network enable Wi-Fi ,then we can start SSH service. Beforehand kobo root has no password at the beginning, as a workaround in the menu there is a `login without password option.` Later on we can set the password.
+As we look around over SSH. We will find the following.
+```
+kernel:
+Linux (none) 3.0.35+ #4072 PREEMPT Mon Dec 19 09:25:37 CST 2016 armv7l GNU/Linux
+
+/bin/busybox
+BusyBox v1.22.0.kobo (2018-02-21 23:50:20 EST) multi-call binary.
+```
+First we update busybox with newest release  `BusyBox v1.31.0 (2019-06-10 15:54:50 CEST) multi-call binary`
+
+We download the busybox from the website and we can transfer it over ssh or just wget from a http site/server.We could even use the KoboRoot.gz like we did in the previous post,however that would be time consuming.
+All i did was just run a one liner as root over ssh. `./busybox-armv7l mv /bin/busybox /bin/busybox.bak && cp ./busybox-armv7l /bin/busybox` from this point our busybox is more up-to-date and has a few extra features.
