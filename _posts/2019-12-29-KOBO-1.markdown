@@ -35,3 +35,5 @@ First we update busybox with newest release  `BusyBox v1.31.0 (2019-06-10 15:54:
 
 We download the busybox from the website and we can transfer it over ssh or just wget from a http site/server.We could even use the KoboRoot.gz like we did in the previous post,however that would be time consuming.
 All i did was just run a one liner as root over ssh. `./busybox-armv7l mv /bin/busybox /bin/busybox.bak && cp ./busybox-armv7l /bin/busybox` from this point our busybox is more up-to-date and has a few extra features.
+
+In the future article i will write about my experiences with kvnclient (vncclient optimised for e-ink).
