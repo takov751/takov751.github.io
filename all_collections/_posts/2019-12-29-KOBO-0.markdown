@@ -8,16 +8,16 @@ categories: kobo repurpose
 This chapter I will start with my findings and the specs of my device.This is my trusty `Kobo Glo HD` e-book reader.I have used it in the last few years,but there was a fundamental problem with the software. The default reader is a bit unoptimized.This really shows when i try to open large pdf files(> 40MB).9 out of 10 times closes the pdf without warning.
 
 ---  | ---
-Display |	6” Carta E Ink HD touchscreen with ultra-high resolution of 1448 x 1072, 300 ppi
-Device size |	157 x 115 x 9.2 mm
-Weight |	180 g
-Light |	Fully adjustable built-in ComfortLight technology.
-Buttons |	Power on/off
-Storage |	4 GB
-Battery |	Up to 2 months
-Colour |	Black
-Connectivity |	WiFi 802.11 b/g/n and Micro USB
-Processor |	1 GHz armv7 i.MX 6SoloLite NTX Board
+Display |    6" Carta E Ink HD touchscreen with ultra-high resolution of 1448 x 1072, 300 ppi
+Device size |    157 x 115 x 9.2 mm
+Weight |    180 g
+Light |    Fully adjustable built-in ComfortLight technology.
+Buttons |    Power on/off
+Storage |    4 GB
+Battery |    Up to 2 months
+Colour |    Black
+Connectivity |    WiFi 802.11 b/g/n and Micro USB
+Processor |    1 GHz armv7 i.MX 6SoloLite NTX Board
 **software** |   
 kernel version | Linux(none) 3.0.35+ armv7l
 useful software | busybox v1.22.0 2018-02-21
@@ -28,7 +28,8 @@ I was looking for some alternative softwares/solutions. I found a small thinker 
 There is a really interesting file in the zip called KoboRoot.tgz . When you inspect it closer its contains the structure of linux filesystem.This is important if we would like to add our own bits,however after we install the KSM there will be plenty of other of ways to do it.
 After the install you have a minimalist(really minimalist) menu to start reader, read info and start the KSM most handy feature the `rmc`. this is a remote web-interface for the device.If you look at the bottom you can even run command as the root at the bottom.
 
-![rmc](/picture/rmc.png)
+![rmc](/all_collections/picture/rmc.png)
 
 
 At this point we have a open device with plenty of options. However if you want to create a stable telnet/ssh at this point, there might be some bumps. Creating a telnet connection is rather problematic and in the process its easy to mess it up. So i will go with a more feature-rich solution. In the next article i will write about the available e-reader software.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
