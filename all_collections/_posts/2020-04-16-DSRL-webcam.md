@@ -3,6 +3,7 @@ layout: post
 title:  "DSLR camera as webcam on any Linux distro"
 date:   2020-04-16 10:00:00 +0000
 categories: dsrl repurpose
+page.author: "takov751"
 published: true
 ---
 
