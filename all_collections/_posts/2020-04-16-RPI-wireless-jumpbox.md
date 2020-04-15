@@ -29,7 +29,7 @@ network={
  psk="<Password for your WiFi>"
 }
 ```
-## 4. We have to gain access to the serial port
+## 4. We have to gain access to the serial port [source](https://www.raspberrypi.org/documentation/configuration/uart.md)
 
 By default Raspbian uses serial port as output,to disable it. At first start when the device connected to the wireless network SSH into the Rpi box. 
 
