@@ -3,6 +3,8 @@ layout: post
 title:  "KOBO on steroid aka 'reborn and repurpose' #0"
 date:   2019-12-29 10:00:00 +0000
 categories: kobo repurpose
+author: takov751
+published: true
 ---
 # Chapter Zero
 This chapter I will start with my findings and the specs of my device.This is my trusty `Kobo Glo HD` e-book reader.I have used it in the last few years,but there was a fundamental problem with the software. The default reader is a bit unoptimized.This really shows when i try to open large pdf files(> 40MB).9 out of 10 times closes the pdf without warning.
