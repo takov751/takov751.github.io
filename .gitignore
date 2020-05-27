@@ -2,5 +2,5 @@ _site
 .sass-cache
 .jekyll-metadata
 todo.md
-Gemfile.lock
+Gemfile.locks
 .jekyll-cache
